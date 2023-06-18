@@ -1,0 +1,26 @@
+/* Latest Posts -------------------------------------------------------------------------------------------------------*/
+/* #latest-posts {
+    margin-left: auto !important;
+    margin-right: auto !important;
+} */
+
+.latest-posts-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.post-card {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 300px;
+    /* background-color: #20202019; */
+    border: 1px solid #626262;
+    /* text-align: center; */
+}
+
+.post-card h1, p {
+    padding: 0px 12px;
+}

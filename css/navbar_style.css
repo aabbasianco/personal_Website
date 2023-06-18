@@ -1,0 +1,72 @@
+/* NavBar -------------------------------------------------------------------------------------------------------*/
+#navBar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    max-width: 1120px;
+    min-width: 678px;
+    margin: auto;
+    box-shadow: 0 0px 5px 0 #00000029;
+    overflow: hidden;
+    background-color: white;
+    cursor: default;
+}
+
+.navBar-item {
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    /* background-color: white; */
+    padding: 16px 16px;
+    vertical-align: middle;
+    letter-spacing: 4px;
+    transition: 0.1s;
+    /* background-color: #5271C4; */
+    /* background-color: #5271C4; */
+    box-sizing: border-box;
+}
+
+.navBar-item:hover {
+    color: #5271C4;
+}
+
+.navBar-item i {
+    font-size: 22px;
+}
+
+.navBar-left-items {
+    float: left;
+    display: inline;
+    cursor: pointer;
+    user-select: none;
+}
+.navBar-left-items a {
+    padding-top: 17.4px;
+    padding-bottom: 17.4px;
+    user-select: none;
+}
+
+.navBar-right-items {
+    float: right;
+    cursor: pointer;
+}
+
+/* .navBar-text {
+    white-space: normal;
+    padding: 16px 20px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: none;
+    user-select: none;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 4px;
+} */

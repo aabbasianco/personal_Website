@@ -1,0 +1,23 @@
+/* Products -------------------------------------------------------------------------------------------------------*/
+/* #all_posts {
+    margin-left: auto !important;
+    margin-right: auto !important;
+} */
+
+.all-posts-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.post-btn {
+    border-radius: 5px;
+    border-bottom: 3px solid #B19FFF;
+    /* width: 70px; */
+}
+
+.post-btn:hover {
+    background-color: #d1d1d1;
+}

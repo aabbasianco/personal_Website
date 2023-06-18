@@ -1,0 +1,56 @@
+/* Form style */
+/* .form {
+    width: 100%;
+    background-color: darkcyan;
+} */
+
+.contact-box {
+    border: 1px solid #ccc;
+    padding: 15px 8px;
+    margin-bottom: 10px;
+    display: block;
+    width: 98%;
+    border-radius: 5px;
+}
+
+.edit-post-btn {
+    margin-bottom: 28px;
+    background-color: #a48fff;
+    color: white;
+}
+
+.edit-post-btn:hover {
+    /* background-color: #a191e7; */
+    background-color: #8272c6;
+}
+/* ------------------------------------------------------------------------- */
+.products-edit-card {
+    height: 300px;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.products-edit-card form {
+    height: 100%;
+}
+
+.products-edit-card form input,
+textarea {
+    float: left;
+    clear: both;
+}
+
+.products-edit-card form input,
+textarea {
+    border: 1px solid #ccc;
+    padding: 15px 8px;
+    margin-bottom: 10px;
+    display: block;
+    width: 98%;
+    border-radius: 5px;
+}
+
+.product-img {
+    width: 100%;
+    display: block;
+}

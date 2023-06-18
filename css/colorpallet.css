@@ -1,0 +1,16 @@
+*{
+    /* Single Colors */
+    background-color: #0b5716;
+    background-color: #a48fff;
+    background-color: #8272c6;
+    background-color: #ECA1FE;
+
+    /* Gradients */
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    background-image: linear-gradient(-225deg, #5271C4 0%, #b19fff99 48%, #eba1fe9c 100%);
+    background-image: linear-gradient(-225deg, #5270c4df 0%, #b19fff99 48%, #eba1fe9c 100%);
+
+    background-image: linear-gradient(-225deg, #ffed9f 0%, #B19FFF 35%, #9fecff, #ECA1FE 100%);
+    
+    background-image: linear-gradient(-135deg, #B19FFF 0%, #9fecff 35%, #ECA1FE 100%) !important;
+}
